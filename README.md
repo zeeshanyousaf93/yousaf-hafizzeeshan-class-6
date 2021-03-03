@@ -16,3 +16,5 @@ b). "git diff README.md" this will also display changes made to README.md file
 a). "git log" or "git log --oneline" this will display all commits with id, copy commit id for what u wanna display commit changes was made.
 b). "git show abc123" this will display changes from commit with the ID abc123
 5.Assuming that you are currently within a Git repository that includes multiple commits, write the command (or commands) that will display the IDs and commit messages for the 3 most recent commits.
+Answer:
+"git log -n 3" this will display last 3 commits
